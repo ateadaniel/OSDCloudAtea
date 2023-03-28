@@ -21,7 +21,7 @@ Write-Warning "That didn't work because I haven't coded it yet!"
 
 #Start OSDCloud ZTI the RIGHT way
 Write-Host  -ForegroundColor Cyan "Start OSDCloud with MY Parameters"
-Start-OSDCloud -OSLanguage en-us -OSBuild 20H2 -OSEdition Enterprise -ZTI
+Start-OSDCloudGUI
 
 $Shell = New-Object -ComObject "WScript.Shell"
 $Shell.Popup("Click OK to continue.", 0, "Hello", 0)
