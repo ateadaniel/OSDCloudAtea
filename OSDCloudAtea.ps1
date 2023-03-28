@@ -23,6 +23,8 @@ Write-Warning "That didn't work because I haven't coded it yet!"
 Write-Host  -ForegroundColor Cyan "Start OSDCloud with MY Parameters"
 Start-OSDCloud -OSLanguage en-us -OSBuild 20H2 -OSEdition Enterprise -ZTI
 
+Read-Host
+
 #Anything I want  can go right here and I can change it at any time since it is in the Cloud!!!!!
 Write-Host  -ForegroundColor Cyan "Starting OSDCloud PostAction ..."
 Write-Warning "I'm not sure of what to put here yet"
